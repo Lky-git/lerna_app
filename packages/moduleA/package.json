@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "lky": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "core": "^1.0.113",
+    "glob": "^8.0.3",
     "lodash": "^4.17.21"
   }
 }
-

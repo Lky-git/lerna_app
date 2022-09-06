@@ -1,0 +1,33 @@
+{
+  "name": "pkg_lky",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "liukaiyang <935674290@qq.com>",
+  "homepage": "https://github.com/Lky-git/lerna_app#readme",
+  "license": "ISC",
+  "main": "lib/pkg_lky.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lky-git/lerna_app.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/pkg_lky.test.js",
+    "lky": "echo \"Error: no test specified\""
+  },
+  "bugs": {
+    "url": "https://github.com/Lky-git/lerna_app/issues"
+  },
+  "dependencies": {
+    "core": "^1.0.113"
+  }
+}

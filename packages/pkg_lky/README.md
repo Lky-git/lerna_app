@@ -1,11 +1,11 @@
-# `core`
+# `pkg_lky`
 
 > TODO: description
 
 ## Usage
 
 ```
-const core = require('core');
+const pkgLky = require('pkg_lky');
 
 // TODO: DEMONSTRATE API
 ```
